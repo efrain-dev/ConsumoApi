@@ -14,7 +14,7 @@ export class ItemService {
     }
 
   getItems(): Observable<Object> {
-    return this.http.get("https://jsonplaceholder.typicode.com/todos");
+    return this.http.get("https://jsonplaceholder.typicode.com/photos");
   }
 
 }
